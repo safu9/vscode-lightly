@@ -1,0 +1,38 @@
+{
+    "name": "lightly",
+    "displayName": "Lightly",
+    "description": "Light Theme for vscode",
+    "version": "0.0.1",
+    "publisher": "safu9",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/safu9/vscode-lightly"
+    },
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "light-theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lightly",
+                "uiTheme": "vs",
+                "path": "./themes/lightly-color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "vsce": "^1.71.0"
+    }
+}
