@@ -2,7 +2,7 @@
     "name": "lightly",
     "displayName": "Lightly",
     "description": "Light Theme for vscode",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "safu9",
     "license": "MIT",
     "repository": {
