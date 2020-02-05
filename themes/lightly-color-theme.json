@@ -212,7 +212,8 @@
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#222"
+                "foreground": "#222",
+                "fontStyle": ""
 			}
 		},
 		{
@@ -378,14 +379,14 @@
 			}
 		},
 		{
-			"name": "Meta Objectliteral",
+			"name": "Meta Objectliteral Key",
 			"scope": [
-				"meta.objectliteral"
+				"meta.object-literal.key"
 			],
 			"settings": {
 				"foreground": "#008080"
 			}
-		},
+        },
 
 		{
 			"name": "CSS Property Name",
